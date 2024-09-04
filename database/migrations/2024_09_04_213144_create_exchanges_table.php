@@ -21,6 +21,7 @@ return new class extends Migration {
             $table->foreign('requester_id')->references('id')->on('users')->onDelete('cascade');
             $table->foreign('provider_id')->references('id')->on('users')->onDelete('cascade');
         });
+
     }
 
     /**
