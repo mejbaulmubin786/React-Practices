@@ -5,6 +5,7 @@
 body {
   width: 100%;
   height: 100vh;
+  background-color: #faf0f0;
 }
 #topbar {
   width: 100%;
@@ -35,18 +36,32 @@ body {
 }
 
 .navbar {
-  width: 75%;
+  width: 80%;
   margin: auto;
   display: flex;
-  column-gap: 50px;
+  column-gap: 10px;
+  overflow: hidden;
 }
 
-.container {
-  background-color: #faf0f0;
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-ul {
-  list-style: none;
+#container {
   display: flex;
-  column-gap: 15px;
+  column-gap: 20px;
+}
+.text {
+  width: 50%;
+}
+
+img {
+  width: 50%;
+  margin-top: 20px;
+  border: 10px solid white;
+  border-radius: 10px;
 }
