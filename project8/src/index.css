@@ -1,0 +1,49 @@
+body {
+  background-color: pink;
+}
+
+.main {
+  width: 300px;
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.designTwo {
+  background-color: aquamarine;
+}
+
+.designThree {
+  background-color: greenyellow;
+}
+
+.designFour {
+  background-color: yellow;
+}
+
+.designFive {
+  background-color: azure;
+}
+
+.button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  user-select: none;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  text-align: center;
+}

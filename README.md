@@ -1,28 +1,32 @@
-# Web Wizardry ✨
+# 🌟 50 Mini Projects in HTML, CSS & Vanilla JavaScript
 
-Welcome to **Web Wizardry**! A project where HTML, CSS, and JavaScript come together to create magic on the web. This repository is a collection of creative and functional web projects designed to showcase modern web development techniques.
+Welcome to my collection of **50 mini web development projects**! This repository is a hands-on journey through the core front-end technologies: **HTML**, **CSS**, and **Vanilla JavaScript**. Each project is designed to sharpen specific web development skills and encourage learning through practice.
 
-## 🌟 About
+## 🚀 Project Goals
 
-Web Wizardry is built with the idea of combining simplicity and elegance. Whether you're looking for inspiration, learning materials, or simply browsing creative projects, this repository has something for everyone.
+- Strengthen core HTML/CSS/JavaScript knowledge
+- Build fully functional mini applications
+- Improve problem-solving and logical thinking
+- Practice responsive and interactive UI design
+- Prepare for real-world frontend development challenges
 
-### Technologies Used
+## 🧰 Technologies Used
 
-- **HTML**: The backbone of our web structure.
-- **CSS**: Bringing styles and aesthetics to life.
-- **JavaScript**: Adding interactivity and dynamic behavior.
+- HTML5 for semantic and accessible markup
+- CSS3 for styling, layout, and animations
+- Vanilla JavaScript for interactivity and logic (no frameworks or libraries)
 
----
+## 📂 Project Structure
 
-## 🚀 Features
+Each project is placed inside its own folder named `project1`, `project2`, ..., `project50`. Every project is self-contained with its own `index.html`, `style.css`, and optionally `script.js`.
 
-- Responsive web design for seamless viewing on any device.
-- Elegant CSS animations and transitions.
-- Clean and maintainable code for easy understanding.
-- Interactive components powered by JavaScript.
-
----
-
-## 📂 Folder Structure
-
-Here’s a breakdown of the project structure:
+```plaintext
+├── index.html           # Project launcher
+├── project1/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── project2/
+│   ├── ...
+...
+├── project50/

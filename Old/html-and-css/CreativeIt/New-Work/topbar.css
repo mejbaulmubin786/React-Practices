@@ -1,0 +1,38 @@
+body {
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+#header {
+  width: 100%;
+  background-color: #ff1e1e;
+  background: linear-gradient(to right, #ff1e1e, #ff7a74);
+}
+#topbar {
+  width: 75%;
+  padding: 10px 0 10px 0;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.topbar_text {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+}
+
+.form-slider {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.language {
+  width: 50%;
+}

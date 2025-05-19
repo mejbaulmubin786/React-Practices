@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #faf0f0;
+}
+#topbar {
+  background-color: #ff2a29;
+  color: #fff;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.contact-info {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+.mobile > img,
+.email > img {
+  margin-right: 10px;
+}
+
+/*--navbar start */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: auto;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.browse-btn {
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+/* Hero Section */
+#hero {
+  width: 85%;
+}
+.hero-content {
+  width: 100%;
+}
+
+.text {
+  width: 50%;
+}
+
+.image {
+  width: 50%;
+}
+
+.image > img {
+  width: 90%;
+  padding: 5px;
+  border-radius: 10px;
+}

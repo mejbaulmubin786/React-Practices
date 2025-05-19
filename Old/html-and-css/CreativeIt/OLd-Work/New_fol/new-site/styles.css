@@ -1,0 +1,169 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Topbar */
+#topbar {
+  background-color: red;
+  color: white;
+  padding: 10px 0;
+}
+
+#topbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-info div {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info img {
+  margin-right: 10px;
+}
+
+.language span {
+  cursor: pointer;
+}
+
+/* Navbar */
+#navbar {
+  background-color: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+.browse-btn {
+  padding: 10px 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #fff4f4;
+  padding: 50px 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content .text {
+  width: 50%;
+}
+
+.hero-content .text h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-content .text p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.hero-content .buttons button {
+  margin-right: 10px;
+}
+
+/* Popular Courses */
+#popular-courses {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#popular-courses h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.courses {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.course {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.course img {
+  margin-bottom: 10px;
+}
+
+.course h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.course p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

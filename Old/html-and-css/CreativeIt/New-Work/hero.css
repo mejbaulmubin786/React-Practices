@@ -1,0 +1,18 @@
+#hero {
+  width: 75%;
+  margin: auto;
+  display: flex;
+}
+.hero-text {
+  width: 41%;
+}
+.hero-img {
+  width: 59%;
+  padding: 20px;
+}
+
+.hero-img > img {
+  width: 100%;
+  border: 10px solid white;
+  border-radius: 50px;
+}
