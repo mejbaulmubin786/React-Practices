@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 
 const App = () => {
 const [show, setShow]=useState("mubin")
-const [count, setcount]=useState()
+const [count, setCount]=useState(0)
 
 function handleIncrement(){
   setCount(count+10)
