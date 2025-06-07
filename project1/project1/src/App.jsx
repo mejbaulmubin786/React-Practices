@@ -1,10 +1,12 @@
 import React from 'react'
+import Title from './components/Title'
 
 const App = () => {
-  let x = "Bangladesh"
-   return (
-    <h1>{x}</h1>
-   )
-  }
+  return (
+    <>
+      <Title />
+    </>
+  )
+}
 
 export default App
