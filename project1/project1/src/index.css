@@ -57,3 +57,7 @@
 .card .btn-primary:hover {
   background-color: #0056b3; /* হোভারে বাটনের রঙ পরিবর্তন */
 }
+
+.design-two{
+  background-color: aquamarine;
+}
