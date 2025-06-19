@@ -464,3 +464,28 @@ To make both MyButton components display the same count and update together, you
 
 In this example, it is MyApp:
 ![alt text](image-1.png)
+
+Now when you click either button, the count in MyApp will change, which will change both of the counts in MyButton. Here’s how you can express this in code.
+
+First, move the state up from MyButton into MyApp:
+```react
+export default function MyApp() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+
+  return (
+    <div>
+      <h1>Counters that update separately</h1>
+      <MyButton />
+      <MyButton />
+    </div>
+  );
+}
+
+function MyButton() {
+  // ... we're moving code from here ...
+}
+```
