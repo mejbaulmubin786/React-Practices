@@ -446,3 +446,21 @@ function MyButton() {
   );
 }
 ```
+Notice how each button “remembers” its own count state and doesn’t affect other buttons.
+
+### Using Hooks 
+
+Functions starting with use are called Hooks. useState is a built-in Hook provided by React. You can find other built-in Hooks in the API reference. You can also write your own Hooks by combining the existing ones.
+
+Hooks are more restrictive than other functions. You can only call Hooks at the top of your components (or other Hooks). If you want to use useState in a condition or a loop, extract a new component and put it there.
+
+### Sharing data between components 
+In the previous example, each MyButton had its own independent count, and when each button was clicked, only the count for the button clicked changed:
+![alt text](image.png)
+
+However, often you’ll need components to share data and always update together.
+
+To make both MyButton components display the same count and update together, you need to move the state from the individual buttons “upwards” to the closest component containing all of them.
+
+In this example, it is MyApp:
+![alt text](image-1.png)
