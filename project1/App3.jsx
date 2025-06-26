@@ -7,7 +7,6 @@ const App = () => {
 let handleShow=()=>{
    setShow(!show)
 }
-
   return (
     <>
     <div>
@@ -16,7 +15,6 @@ let handleShow=()=>{
         show ? <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, est.</p>:""
       }
     </div>
-
     </>
   )
 }
