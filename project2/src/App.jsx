@@ -1,11 +1,11 @@
 import React from 'react'
+import List from './components/List'
 
 const App = () => {
   return (
-    <div>
-      <h1>Mubin</h1>
-      <h2>Mubin</h2>
-    </div>
+    <>
+      <List />
+    </>
   )
 }
 
