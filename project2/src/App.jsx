@@ -4,7 +4,12 @@ import List from './components/List'
 const App = () => {
   return (
     <>
-      <List />
+      <List text = "Home"/>
+      <List text = "About"/>
+      <List text = "Home"/>
+      <List text = "Home"/>
+      <List text = "Home"/>
+      <List text = "Home"/>
     </>
   )
 }

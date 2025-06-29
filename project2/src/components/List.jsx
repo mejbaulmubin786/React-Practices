@@ -1,9 +1,9 @@
 import React from 'react'
 
-const List = () => {
+const List = ({text}) => {
   return (
     <>
-    <li>Home</li>
+    <li>{text}</li>
     </>
   )
 }
