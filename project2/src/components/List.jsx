@@ -3,7 +3,7 @@ import React from 'react'
 const List = ({text}) => {
   return (
     <>
-    <li>{text}</li>
+    <li className='text-red-500'>{text}</li>
     </>
   )
 }
