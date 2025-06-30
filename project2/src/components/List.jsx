@@ -1,9 +1,9 @@
 import React from 'react'
 
-const List = ({text}) => {
+const List = ({text, className}) => {
   return (
     <>
-    <li className='text-[#EFF4FA] text-lg font-semibold font-open hover:text-[#1BBF00] duration-75 cursor-pointer'>{text}</li>
+    <li className={`text-[#EFF4FA] text-lg font-semibold font-open hover:text-[#1BBF00] duration-75 cursor-pointer list-none {className}`}>{text}</li>
     </>
   )
 }
