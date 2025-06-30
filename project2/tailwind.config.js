@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'open': ["Open Sans"],
       },
+      colors: {
+        'primary': '#1BBF00',
+      },
     },
   },
   plugins: [],
