@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <Container>
-        <Flex>
+        <Flex className='justify-center items-center gap-x-[42.5px]'>
         <Image />
       <List text = "Home"/> 
       <List text = "About" className=""/>
