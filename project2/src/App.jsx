@@ -3,10 +3,12 @@ import List from './components/List'
 import Button from './components/Button'
 import Image from './components/Image'
 import Container from './components/Container'
+import Flex from './components/Flex'
 const App = () => {
   return (
     <>
       <Container>
+        <Flex>
         <Image />
       <List text = "Home"/> 
       <List text = "About" className=""/>
@@ -15,6 +17,7 @@ const App = () => {
       <List text = "Price" className=""/>
       <List text = "Blog" className=""/>
       <Button text="Contact Us" />
+      </Flex>
       </Container>
     </>
   )

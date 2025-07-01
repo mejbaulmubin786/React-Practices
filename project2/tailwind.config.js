@@ -12,6 +12,9 @@ export default {
       colors: {
         'primary': '#1BBF00',
       },
+      maxWidth: {
+        'container': '1147px',
+      }
     },
   },
   plugins: [],
