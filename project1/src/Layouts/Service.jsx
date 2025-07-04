@@ -19,12 +19,12 @@ const Service = () => {
             <div className='w-[230px] h-[200px] md:h-[400px] md:w-[270px] absolute top-[240px] md:-top-[20px] -z-10 -translate-x-1/2 md:translate-x-0 left-1/2 md:left-[300px]'>
               <Image className='w-full h-full' src={ServiveImageTwo}/>
             </div>
-            {/* <div className='w-[340px] absolute -top-[100px] -z-10 left-[530px]'>
+            <div className='w-[340px] absolute -top-[100px] -z-10 left-[530px]'>
               <Image className='w-full' src={ServiveImageThree}/>
             </div>
             <div className='w-[270px] absolute -top-[100px] -z-10 right-0'>
               <Image className='w-full' src={ServiveImagefour}/>
-            </div> */}
+            </div>
        </Flex>
 
       <Flex className='flex-col items-center justify-center md:flex-row md:justify-between  mt-[500px]'>
