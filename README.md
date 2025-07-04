@@ -1,32 +1,12 @@
-# 🌟 50 Mini Projects in HTML, CSS & Vanilla JavaScript
+# React + Vite
 
-Welcome to my collection of **50 mini web development projects**! This repository is a hands-on journey through the core front-end technologies: **HTML**, **CSS**, and **Vanilla JavaScript**. Each project is designed to sharpen specific web development skills and encourage learning through practice.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Project Goals
+Currently, two official plugins are available:
 
-- Strengthen core HTML/CSS/JavaScript knowledge
-- Build fully functional mini applications
-- Improve problem-solving and logical thinking
-- Practice responsive and interactive UI design
-- Prepare for real-world frontend development challenges
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🧰 Technologies Used
+## Expanding the ESLint configuration
 
-- HTML5 for semantic and accessible markup
-- CSS3 for styling, layout, and animations
-- Vanilla JavaScript for interactivity and logic (no frameworks or libraries)
-
-## 📂 Project Structure
-
-Each project is placed inside its own folder named `project1`, `project2`, ..., `project50`. Every project is self-contained with its own `index.html`, `style.css`, and optionally `script.js`.
-
-```plaintext
-├── index.html           # Project launcher
-├── project1/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-├── project2/
-│   ├── ...
-...
-├── project50/
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
