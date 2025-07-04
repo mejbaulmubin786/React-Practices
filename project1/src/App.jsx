@@ -1,9 +1,10 @@
 import React from 'react'
+import Navber from './Layouts/Navber'
 
 const App = () => {
   return (
     <div>
-      <h1>mubin</h1>
+      <Navber />
     </div>
   )
 }

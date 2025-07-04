@@ -1,9 +1,9 @@
 import React from 'react'
 
-const list = ({text}) => {
+const List = ({text,className}) => {
   return (
-    <>{text}</>
+    <li className={`text-[#EFF4FA] text-lg font-semibold	font-open hover:text-[#1BBF00] duration-300 cursor-pointer list-none ${className}`}>{text}</li>
   )
 }
 
-export default list
+export default List
