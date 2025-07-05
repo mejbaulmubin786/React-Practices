@@ -12,7 +12,7 @@ import foFour from '../assets/customer/four.png'
 
 const Customer = () => {
   return (
-    <section className='bg-[#F9F9FB]'>
+    <section className='bg-[#F9F9FB] relative'>
       <Container className='flex gap-x-[30px]'>
 
         <div className='ml-2 text-center mt-[28px] mx-auto'>
