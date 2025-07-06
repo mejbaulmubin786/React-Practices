@@ -3,24 +3,14 @@ import {
   createRoutesFromElements,
   createBrowserRouter,
   Route,
+  RouterProvider,
 } from "react-router-dom";
+import Login from './pages/Login';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route
-      path="/"
-      element={<Root />}
-      loader={rootLoader}
-      action={rootAction}
-      errorElement={<ErrorPage />}
-    >
-      <Route errorElement={<ErrorPage />}>
-        <Route index element={<Index />} />
-        <Route
-          path="contacts/:contactId"
-          element={<Contact />}
-        />
-      </Route>
+    <Route path="/login" element={<Login />}>
+
     </Route>
   )
 );
