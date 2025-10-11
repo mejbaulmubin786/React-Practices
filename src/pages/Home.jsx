@@ -63,7 +63,7 @@ export default function Home() {
             <FaYoutube className='sm:text-xl md:text-[26px] lg:text-[30px]' />
           </Link>
 
-          <Link to='https://twitter.com/sajib562341'>
+          <Link to='https://x.com/MejbaulMub786'>
             <AiOutlineTwitter className='sm:text-xl md:text-[26px] lg:text-[34px]' />
           </Link>
 
