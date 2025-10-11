@@ -51,11 +51,11 @@ export default function Home() {
           </div>
         </Container>
         <div className=' bg-third h-[120px] w-[10px] sm:w-[30px] sm:h-[165px] sm:top-[190px] md:h-[210px] lg:h-[270px] md:w-[30px] lg:w-[40px] absolute left-0 top-[226px] md:top-[220px] lg:top-[90px] flex flex-col justify-between items-center p-3 md:p-5  lg:p-7 drop-shadow-xl '>
-          <Link to="https://www.linkedin.com/in/md-sajib-khan-888a19287/">
+          <Link to="https://www.linkedin.com/in/mejbaulmubin786/">
             <AiFillLinkedin className='sm:text-xl md:text-[26px] lg:text-[34px]' />
           </Link>
 
-          <Link to='https://github.com/sajibkhandev'>
+          <Link to='https://github.com/mejbaulmubin786'>
             <AiOutlineGithub className='sm:text-xl md:text-[26px] lg:text-[34px]' />
           </Link>
 
@@ -67,7 +67,7 @@ export default function Home() {
             <AiOutlineTwitter className='sm:text-xl md:text-[26px] lg:text-[34px]' />
           </Link>
 
-          <Link to="https://www.facebook.com/mdsajib.mia.3152/">
+          <Link to="https://www.facebook.com/mejbaulmubin786/">
             <FaFacebookSquare className='text-sm sm:text-xl md:text-[26px] lg:text-[30px]' />
           </Link>
         </div>
