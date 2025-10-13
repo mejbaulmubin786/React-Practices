@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <>
-      <div className=' fixed right-[12px] md:right-[70px] lg:right-[25px] bottom-[16px] md:bottom-[40px] lg:bottom-[15px] flex justify-center items-center gap-x-1 md:gap-x-4 z-10'>
+      <div className='fixed right-[12px] md:right-[70px] lg:right-[25px] bottom-[16px] md:bottom-[40px] lg:bottom-[15px] flex justify-center items-center gap-x-1 md:gap-x-4 z-10'>
         <div>
           <button className='bg-four py-1 px-2 lg:py-2 lg:px-4 rounded-xl font-robo text-xs md:text-sm drop-shadow-2xl flex justify-center items-center gap-x-2'>Chat with Me <MdWavingHand className='text-yellow-500 md:text-base' /></button>
         </div>
